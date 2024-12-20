@@ -63,6 +63,7 @@ export class Angular4PaystackService {
       transaction_charge: obj.transaction_charge || 0, // tslint:disable-line
       bearer: obj.bearer || '',
       split_code: obj.split_code || '',
+      split: obj.split || {},
     };
     return paystackOptions;
   }

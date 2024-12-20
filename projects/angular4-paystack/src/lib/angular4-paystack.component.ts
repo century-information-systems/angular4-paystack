@@ -22,6 +22,7 @@ export class Angular4PaystackComponent {
   @Input() quantity: string;
   @Input() channels: string[];
   @Input() split_code: string;
+  @Input() split: {};
   @Input() subaccount: string;
   @Input() transaction_charge: number; // tslint:disable-line
   @Input() bearer: string;

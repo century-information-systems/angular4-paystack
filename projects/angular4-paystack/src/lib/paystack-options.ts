@@ -55,6 +55,10 @@ export interface PaystackOptions {
    * Used to apply multiple Split on Payments
    */
   split_code?: string;
+  /**
+   * Used to apply dynamic Split on Payments
+   */
+  split?: {};
 }
 
 export interface PrivatePaystackOptions extends PaystackOptions {
